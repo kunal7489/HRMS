@@ -1,0 +1,200 @@
+/* signup.css */
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../login/img/[freepicdownloader.com]-abstract-sky-with-yellow-blue-colors-large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures the image covers the background */
+    background-position: center;  /* Centers the image */
+  }
+  
+  .form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: #fff;
+    font-size: 30px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .one{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .two{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .three{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .four{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .five{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .formGroup {
+    width: 45%;
+    /* background-color: black; */
+  }
+  
+  .formLabel {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    width: 100%;
+    font-weight: bold;
+    color: #00c3ff;
+  }
+  
+  .formLabelAgain {
+    /* width: 300px; */
+    font-size: 20px;
+    
+  }
+  
+  .formField {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formActions {
+    margin-top: 20px;
+  }
+  
+  .formSubmitBtn {
+    width: 120px;
+    height: 50px;
+    background-color: #00c3ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .formSubmitBtn:hover {
+    background-color: hsl(57, 100%, 68%);
+    /* padding: 7px 17px; */
+    transform: scale(1.1);
+    color: #00c3ff;
+    border: 1.5px solid #00c3ff;
+  }
+  
+
+  .formLabelAgain span{
+    color: #00a5d7;
+  }
+
+  .error{
+    display: block;
+    font-size: 15px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .loginContainer {
+      height: 100vh;
+      padding: 20px;
+    }
+  
+    .form {
+      width: 100%;
+      height: 92vh;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow-y: auto; 
+    }
+  
+    .one, .two, .three, .four {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .five{
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    .formGroup {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .formField {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .formSubmitBtn {
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      margin-bottom: 0px;
+    }
+  
+    .formLabel {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .formLabelAgain {
+      font-size: 18px;
+
+    }
+  
+    .formActions {
+      margin-top: 20px;
+    }
+
+    .error{
+      display: block;
+      font-size: 12px;
+      height: 10px;
+    }
+  }
+  
